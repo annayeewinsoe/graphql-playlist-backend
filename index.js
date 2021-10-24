@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5554
 app.use(cors())
 
 // MONGO DB
-mongoose.connect('mongodb+srv://finland:1405@cluster0.ptcju.mongodb.net/playlist-gql?retryWrites=true&w=majority', () => {
+mongoose.connect('connect to your mongodb database', () => {
    console.log('connected to mongodb')
 })
 
